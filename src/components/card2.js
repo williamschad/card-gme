@@ -2,7 +2,7 @@ import ReactCardFlip from 'react-card-flip';
 import React, {Component} from "react";
 import Image from '../components/uno.png';
 
-class Card extends React.Component {
+class Card2 extends React.Component {
   constructor() {
     super();
       this.state = {
