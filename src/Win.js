@@ -19,9 +19,9 @@ const Win = () => {
     <br/>
 <Container fluid='false'>
     <Row>
-      <col><Card text={randomValue}/></Col>
-      <col><Card2 text={randomValue}/></Col>
-      <col><Card3 text={randomValue}/></Col>
+      <col><Card ={randomValue}/></Col>
+      <col><Card2 ={randomValue}/></Col>
+      <col><Card3 ={randomValue}/></Col>
     </Row>
 </Container>
     </div>
