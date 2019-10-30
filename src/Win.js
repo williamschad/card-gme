@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card1 from './components/card';
-import card2 from './components/card2';
-import card3 from './components/card3';
+import Card2 from './components/card2';
+import Card3 from './components/card3';
 
 var myCardText = ['YOU WIN!','YOU LOSE!','BETTER LUCK NEXT TIME!','TRY AGAIN!','SO CLOSE!']
 var randomvalue = myCardText[Math.floor(myCardText.length * Math.random())];
