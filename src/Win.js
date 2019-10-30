@@ -18,6 +18,12 @@ const Win = () => {
     <h1></h1>
     <br/>
 <Container fluid='false'>
+    <Row>
+      <col><Card1 text={randomValue}/></Col>
+      <col><Card2 text={randomValue}/></Col>
+      <col><Card3 text={randomValue}/></Col>
+    </Row>
+</Container>
     </div>
     );
 };
