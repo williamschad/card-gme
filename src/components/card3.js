@@ -9,6 +9,17 @@ class Card extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this);
   }
+  
+   end = () => {
+    var ab = prompt('1.Restart \n2.Quit');
+    if(ab ==1){
+      window.location.reload()
+    }
+    else if(ab ==2){
+      window.location.href = 'http://localhost:3000/';
+    }
+    
+  }
  
   handleClick(e) {
     e.preventDefault();
