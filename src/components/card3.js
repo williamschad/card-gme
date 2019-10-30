@@ -1,7 +1,7 @@
 import ReactCardFlip from 'react-card-flip';
 import React, {Component} from "react";
 
-class Card extends React.Component {
+class Card3 extends React.Component {
   constructor() {
     super();
       this.state = {
