@@ -7,25 +7,18 @@ import Card from './components/card';
 import card2 from './components/card2';
 import card3 from './components/card3';
 
-var Cardd = ["YOU WIN!"]
-var Cardss = ["YOU LOSE!"];
-var Cardsd = ["MAYBE NEXT TIME!"]
-var Cardsss = Cardss[Math.floor(Cardss.length * Math.random())];
+var cards = ['YOU WIN!','YOU LOSE!','BETTER LUCK NEXT TIME!','TRY AGAIN!','SO CLOSE!']
+var randomvalue = cards[Math.floor(cards.length * Math.random())];
 
 const Win = () => {
   return(
     <div>
-      <Container>
-  <Row>
-    <Col><Card text={Cardsss}/></Col>
-    <Col><Card text={Cardsss}/></Col>
-    <Col><Card text={Cardsss}/></Col>
-  </Row>
-</Container>
+    <br/>
+    <h1></h1>
+    <h1></h1>
+    <br/>
+<Container fluid='false'>
     </div>
-
-    )
-
-}
-
+    );
+};
 export default Win;
