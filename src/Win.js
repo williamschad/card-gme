@@ -14,7 +14,7 @@ const Win = () => {
   return(
     <div>
     <br/>
-    <h1>"Life is like a game of cards. The hand you are dealt is determinism; the way you play it is free will."</h1>
+    <h1></h1>
     <h1>PICK A CARD TO WIN!!</h1>
     <br/>
 <Container fluid="false">
