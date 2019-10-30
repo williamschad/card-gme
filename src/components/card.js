@@ -4,13 +4,24 @@ import ReactCardFlip from 'react-card-flip';
 import Image from '../components/uno.png';
 
 
-class Card extends React.Component {
+class Card1 extends React.Component {
   constructor() {
     super();
       this.state = {
       isFlipped: false
     };
     this.handleClick = this.handleClick.bind(this);
+  }
+  
+  end = () => {
+    var ab = prompt('1.Restart \n2.Quit');
+    if(ab ==1){
+      window.location.reload()
+    }
+    else if(ab ==2){
+      window.location.href = 'http://localhost:3000/';
+    }
+    
   }
  
   handleClick(e) {
