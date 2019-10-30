@@ -17,9 +17,9 @@ const Win = () => {
     <div>
       <Container>
   <Row>
-    <Col><Card text={Cardsss,Cardd,Cardsd}/></Col>
-    <Col><Card text={Cardsss,Cardd,Cardsd}/></Col>
-    <Col><Card text={Cardsss,Cardsd,Cardss}/></Col>
+    <Col><Card text={Cardsss}/></Col>
+    <Col><Card text={Cardsss}/></Col>
+    <Col><Card text={Cardsss}/></Col>
   </Row>
 </Container>
     </div>
