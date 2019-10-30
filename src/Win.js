@@ -7,8 +7,8 @@ import Card from './components/card';
 import card2 from './components/card2';
 import card3 from './components/card3';
 
-var cards = ['YOU WIN!','YOU LOSE!','BETTER LUCK NEXT TIME!','TRY AGAIN!','SO CLOSE!']
-var randomvalue = cards[Math.floor(cards.length * Math.random())];
+var myCardText = ['YOU WIN!','YOU LOSE!','BETTER LUCK NEXT TIME!','TRY AGAIN!','SO CLOSE!']
+var randomvalue = myCardText[Math.floor(myCardText.length * Math.random())];
 
 const Win = () => {
   return(
