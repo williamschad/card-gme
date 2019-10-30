@@ -3,7 +3,7 @@ import ReactCardFlip from 'react-card-flip';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Card from './components/card';
+import Card1 from './components/card';
 import card2 from './components/card2';
 import card3 from './components/card3';
 
@@ -19,9 +19,9 @@ const Win = () => {
     <br/>
 <Container fluid='false'>
     <Row>
-      <col><Card ={randomValue}/></Col>
-      <col><Card2 ={randomValue}/></Col>
-      <col><Card3 ={randomValue}/></Col>
+      <col><Card1 text={randomValue}/></Col>
+      <col><Card2 text={randomValue}/></Col>
+      <col><Card3 text={randomValue}/></Col>
     </Row>
 </Container>
     </div>
